@@ -6,6 +6,24 @@
 }
 
 .but {
-	height: 150px;
+	height: 80px;
 	width: 150px;
+}
+
+.footer {
+	background-color: aqua;
+	height: 100px;
+	align-items: center;
+}
+
+.foot {
+	display: flex;
+	align-items: baseline;
+	background-color: grey;
+	height: 30%;
+	align-items: baseline;
+}
+
+.buttons {
+	height: 60%;
 }
