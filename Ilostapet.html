@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
    <link href="CSS/main2.css" rel="stylesheet" type="text/css"> 
-<title>LostPets1</title>
+<title>Ilostapet</title>
 </head>
   <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -38,14 +38,55 @@
   </div>
 </nav>
 
-<div class="buttons">
-<div class="button">
-	<a type="button" href="Ilostapet.html"  class="btn btn-primary btn-lg rounded but but" role="button">I Lost a pet</a>
+<form>
+  <div class="form-group">
+    <label for="exampleFormControlFile1">Picture</label>
+    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Name</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name of pet">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">What kind?</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Dog</option>
+      <option>Cat</option>
+    </select>
+  </div>
+   <div class="form-group">
+    <label for="exampleFormControlInput1">Breed</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g. Golden Retriever">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Color</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g. Black">
+  </div>
+	 <div class="form-group">
+    <label for="exampleFormControlInput1">Where</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Where did you lose your pet?">
+  </div>
+	<div>
+	<label for="exampleFormControlInput1">When</label>
+	  <input id="datepicker" width="270" />
+    <script>
+        $('#datepicker').datepicker({
+            uiLibrary: 'bootstrap'
+        });
+    </script>
+	</div>
+</form>
+	  
+	  <div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input" id="customSwitch1">
+  <label class="custom-control-label" for="customSwitch1">Toggle this switch element</label>
 </div>
-<div class="button">
-	<button type="button" class="btn btn-primary btn-lg rounded but">I found a pet</button>  
+<div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input" disabled id="customSwitch2">
+  <label class="custom-control-label" for="customSwitch2">Disabled switch element</label>
 </div>
-	  </div>
+	  
+	  
 	  
 	  
 <footer class="foot">
