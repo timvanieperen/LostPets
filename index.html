@@ -15,28 +15,18 @@
   <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="#">Find my Pet</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="correct" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+  <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Settings
   </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Settings
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Profile</a>
-          <a class="dropdown-item" href="#">Terms of Service</a>
-			<a class="dropdown-item" href="#">FaQ</a>
-          <div class="dropdown-divider"></div>
-          
-        </div>
-      </li>
-     
-    </ul>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+    <button class="dropdown-item" type="button">Profile settings</button>
+    <button class="dropdown-item" type="button">Terms of Service</button>
+    <button class="dropdown-item" type="button">FaQ</button>
   </div>
+</div>
+
+ 
 </nav>
 
 <div class="buttons">
