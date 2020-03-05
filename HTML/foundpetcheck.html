@@ -9,61 +9,54 @@
     <!-- Bootstrap CSS -->
  <link href="../bootstrapcopy.css" rel="stylesheet" type="text/css">
    <link href="../CSS/style.css" rel="stylesheet" type="text/css"> 
-<title>Ilostapet</title>
+<title>Ilostapet2</title>
 </head>
   <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a href="../index.html" class="btn btn-primary " name="submit" type="submit" role="button">
-        Back
-       </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="correct" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Settings
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Profile</a>
-          <a class="dropdown-item" href="#">Terms of Service</a>
-			<a class="dropdown-item" href="#">FaQ</a>
-          <div class="dropdown-divider"></div>
-          
-        </div>
-      </li>
-     
-    </ul>
+	  <div class="pos-f-t">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+      <h4 class="text-white">Collapsed content</h4>
+      <span class="text-muted">Toggleable via the navbar brand.</span>
+    </div>
   </div>
-</nav>
+  <nav class="navbar navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+</div>
 
 <form class="container-fluid">
   <div class="form-group">
-    <label for="exampleFormControlFile1">Picture</label>
-    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+	  <img class="img-fluid" src="https://images4.persgroep.net/rcs/QBHbsos3Q1kEyBm8uFDq3iKHfrQ/diocontent/139828726/_fitwidth/694/?appId=21791a8992982cd8da851550a453bd7f&quality=0.9"> </img>
   </div>
   <div class="form-group">
-    <label for="exampleFormControlSelect1">What kind?</label>
-    <select class="form-control" id="exampleFormControlSelect1">
-      <option>Dog</option>
-      <option>Cat</option>
-    </select>
+    <label for="exampleFormControlSelect1">I found a:</label>
+    <p>Dog</p>
   </div>
    <div class="form-group">
-    <label for="exampleFormControlInput1">Breed</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g. Golden Retriever">
+    <label for="exampleFormControlInput1">The
+	breed is:</label>
+    <p>Pomeriaan</p>
   </div>
   <div class="form-group">
-    <label for="exampleFormControlInput1">Color</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g. Black">
+    <label for="exampleFormControlInput1">The color of the animal is:</label>
+    <p>brown and white</p>
   </div>
 	 <div class="form-group">
     <label for="exampleFormControlInput1">Where</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Where did you find the pet?">
-  </div>
+   <p>Ignatiusstraat 33, Breda</p>
+	
+	<!--Google map-->
+<div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 200px width:100%">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2478.75539325302!2d4.789994415773035!3d51.591046279648936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c69f7c00a6c557%3A0x817760bd81314029!2sSint%20Ignatiusstraat%2033%2C%204817%20KA%20Breda!5e0!3m2!1snl!2snl!4v1583430446265!5m2!1snl!2snl" frameborder="0"
+    style="border:0" allowfullscreen></iframe>
+</div>
+
+<!--Google Maps-->	 
+		 
+</div>
 	<div>
 	<label for="exampleFormControlInput1">When</label>
 	  <div class="bootstrap-iso">
@@ -80,11 +73,8 @@
       </label>
       <div class="col-sm-10">
        <div class="input-group">
-        <div class="input-group-addon">
-         <i class="fa fa-calendar">
-         </i>
-        </div>
-        <input class="form-control" id="date" name="date" placeholder="MM/DD/YYYY" type="text"/>
+        
+        <p>input</p>
        </div>
       </div>
      </div>
@@ -101,9 +91,13 @@
 </div>
 	</div>
 </form>
-
- <a href="foundpetcheck.html" class="btn btn-primary " name="submit" type="submit" role="button">
-        Continue
+	  
+	  <div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input" id="customSwitch1">
+  <label class="custom-control-label" for="customSwitch1">Want to recieve notifications?</label>
+</div>
+  <a href="Ilostapet3.html" class="btn btn-primary " name="submit" type="submit" role="button">
+        Submit
        </a>
 
 	  
