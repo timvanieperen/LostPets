@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-  <icon src="icon.png" />
 <widget id="io.cordova.hellocordova" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>Find my Pet</name>
+   <icon src="icon.png"/>
+<name>Find my Pet</name>
   <description>
       Find your pet using this app.
   </description>
