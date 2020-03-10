@@ -8,7 +8,7 @@
 <!-- versionCode is optional and Android only -->
 
   <name>Find my Pet</name>
-
+  <icon src="icon.png"/>
   <description>
       Find your pet using this app.
   </description>
