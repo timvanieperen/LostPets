@@ -16,5 +16,5 @@
   <author href="https://build.phonegap.com" email="#">
       Team 6
   </author>
-
+<plugin name="cordova-plugin-whitelist"/>
 </widget>
