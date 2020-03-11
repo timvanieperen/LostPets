@@ -48,14 +48,7 @@
 </nav>
 
 	  
-	<script>
-		$(document).on('click touchend', function(e) {
-    if (!$(e.target).is('.dropdown-submenu a')) {
-        $('.dropdown.open').removeClass('open');
-        $('.dropdown-toggle').blur();
-    }
-});
-	</script>
+	
 	  
 	  
 	  
@@ -68,6 +61,13 @@
 <script src="JS/jquery-3.4.1.slim.min.js"></script>
 <script src="JS/popper.js"></script>
 <script src="JS/bootstrap.bundle.min.js"></script>
-
+<script>
+		$(document).on('click touchend', function(e) {
+    if (!$(e.target).is('.dropdown-submenu a')) {
+        $('.dropdown.open').removeClass('open');
+        $('.dropdown-toggle').blur();
+    }
+});
+	</script>
 </body>
 </html>
