@@ -18,7 +18,5 @@
   </author>
 	 <plugin name="cordova-plugin-whitelist" source="npm"/>
 
-<access origin="http://google.com" />
-	<access origin="http://maps.google.com" />
-	<access origin="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" />
+<allow-navigation href="*" />
 </widget>
