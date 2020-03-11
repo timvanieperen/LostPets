@@ -48,7 +48,14 @@
 </nav>
 
 	  
-
+	<script>
+		$(document).on('click touchend', function(e) {
+    if (!$(e.target).is('.dropdown-submenu a')) {
+        $('.dropdown.open').removeClass('open');
+        $('.dropdown-toggle').blur();
+    }
+});
+	</script>
 	  
 	  
 	  
