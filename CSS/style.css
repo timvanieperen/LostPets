@@ -11,6 +11,9 @@ body {
 	max-width: 480px;
 }
 
+nav {
+	max-width: 480px;
+}
 
 .button {
 	justify-content: center;
